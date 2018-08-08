@@ -1,3 +1,9 @@
+/**
+ * 2018/07/31
+ * 백준 1015 번 문제
+ * 언어: C++
+*/
+
 #include <iostream>
 
 using namespace std;
