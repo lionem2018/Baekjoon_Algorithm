@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdio>
 
 using namespace std;
 
@@ -11,14 +12,14 @@ int main(void)
 	int size, index = 0;
 	int num;
 	
-	cin >> size;
+	scanf("%d", &size);
 	int results[size][2];
 
 	while(index < size)
 	{
 		one_n = zero_n = 0;
 
-		cin >> num;
+		scanf("%d", &num);
 
 		fibonacci(num);
 
@@ -30,7 +31,7 @@ int main(void)
 
 	for(int i = 0; i < size; i++)
 	{
-		cout << results[i][0] << " " << results[i][1] << endl;
+		printf("%d %d\n", results[i][0], results[i][1]);
 	}
 
 	return 0;
