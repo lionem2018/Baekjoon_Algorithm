@@ -1,6 +1,6 @@
 /**
  * 2020/01/15
- * 백준 2588 번 문제: https://www.acmicpc.net/problem/2588
+ * 백준 2588 번 문제: 곱셈(https://www.acmicpc.net/problem/2588)
  * 언어: C++
 */
 
